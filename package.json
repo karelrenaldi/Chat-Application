@@ -1,0 +1,19 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "Web chat application with socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Karel Renaldi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
